@@ -72,7 +72,7 @@ export function TaskList() {
         <div className="input-group">
           <input
             type="text"
-            placeholder="Adicionar novo To-Do"
+            placeholder="Adicionar novo todo"
             onChange={(e) => setNewTaskTitle(e.target.value)}
             value={newTaskTitle}
           />
